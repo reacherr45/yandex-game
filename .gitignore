@@ -1,14 +1,45 @@
-# OS / IDE
-.DS_Store
-Thumbs.db
+# =============== Unity generated ===============
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+
+# MemoryCaptures can get very large
+[Mm]emoryCaptures/
+
+# Recordings can get large
+[Rr]ecordings/
+
+# =============== IDE / OS ===============
 .vscode/
 .idea/
+*.csproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
 
-# Logs
+.DS_Store
+Thumbs.db
+
+# =============== Unity packages ===============
+Packages/packages-lock.json
+
+# =============== Addressables / AssetBundles ===============
+[Aa]sset[Bb]undles/
+[Aa]ssets/[Aa]sset[Bb]undles/
+
+# =============== Crash / build artifacts ===============
 *.log
 
-# Builds / artifacts
+# Our local builds folder (we keep it outside Unity too)
 builds/
-*.zip
-*.tar
-*.gz
